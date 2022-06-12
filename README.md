@@ -15,6 +15,6 @@ is built for it.
 
     `sudo docker run --privileged --name ubuntuGL -e "DISPLAY=${DISPLAY}" --hostname ubuntuGL -it -v /tmp/.X11-unix:/tmp/.X11-unix --gpus all ystozlu/ubuntu_gl /bin/bash`
 
- 3. Run the application `cd /home/OpenGL_VR && ./main`
+ 3. Once in the container, run the application `cd /home/OpenGL_VR && ./main`
 
 Two windows should appear. Use WASD to move and mouse buttons to look around.
